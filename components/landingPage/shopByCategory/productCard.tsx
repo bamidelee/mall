@@ -26,8 +26,8 @@ export default function ProductCard({ image, details, price, inStock, first }: P
                     Out of stock
                 </p>}
             </div>
-            <div className="absolute top-[-55%] z-20 w-full h-[100%] animate__animated animate__slideInUp">
-                <Image alt={details} src={image} fill  />
+            <div className="absolute top-[-55%] z-20 w-[28vw] lg:w-[15vw] h-[90%] animate__animated animate__slideInUp">
+                <Image alt={details} src={image} fill />
             </div>
             <div className="text-center">
                 <div className='flex justify-center text-[.8rem] lg:text-[1rem]'>
